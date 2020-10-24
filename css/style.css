@@ -57,7 +57,7 @@ a {
 }
 
 .block {
-    width: 460px;
+    max-width: 460px;
 }
 
 .section-title {
@@ -68,4 +68,32 @@ a {
 
 .unstyled-list {
     padding-left: 15px;
+}
+
+@media(max-width: 1400px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 740px;
+    }
+
+    .block {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 560px;
+    }
+}
+
+@media(max-width: 578px) {
+    .container {
+        width: 90%;
+    }
 }
