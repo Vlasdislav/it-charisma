@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+:root {
+    --color-header-bg: #24292e;
+}
+
 html {
     font-family: 'Roboto', sans-serif;
 }
@@ -27,7 +31,7 @@ a {
 }
 
 .header {
-    background-color: #000000;
+    background-color: var(--color-header-bg);
 }
 
 .menu {
